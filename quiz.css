@@ -1,0 +1,28 @@
+body {
+  background: #C1E2DC;
+  font-family: 'Oswald', sans-serif;
+  color: #5CBAB0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+button {
+  background: white;
+  border: 2px solid #99BF1C;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  color: #99BF1C;
+  padding: 0 20px 10px 20px;
+  margin-top: 50px;
+}
+
+input {
+  width: 55px;
+  height: 40px;
+  background: white;
+  border: 2px solid #5CBAB0;
+  font-family: 'Oswald', sans-serif;
+  color: #5CBAB0;
+  text-align: center;
+  font-size: 1.2em;
+}
