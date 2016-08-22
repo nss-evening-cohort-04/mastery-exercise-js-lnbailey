@@ -1,6 +1,6 @@
 // Create a tree function that accepts a single object as an argument.
 // The object has two key/value pairs from user input in a <input type="text"> field in the DOM.
-var growButton = document.getElementById("growButton");
+// Tree should be shown in the console.
 
 function tree() {
   var height = document.getElementById("height").value;
@@ -19,9 +19,8 @@ function tree() {
   }
 }
 
-// 1. User can either press the enter key or click a button that is labeled "Grow your tree".
-// 2. Tree should be shown in the console.
-// 3. Display an alert stating that both fields must have a value.
+// User can either press the enter key or click a button that is labeled "Grow your tree".
+// Display an alert stating that both fields must have a value.
 
 function inputAlert() {
   var rows = document.getElementById("height").value;
@@ -35,6 +34,7 @@ function inputAlert() {
     }
 };
 
+var growButton = document.getElementById("growButton");
 
 growButton.addEventListener("click", inputAlert);
 addEventListener("keypress", onReturn);

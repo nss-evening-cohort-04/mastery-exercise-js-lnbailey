@@ -1,17 +1,17 @@
 body {
   background: #C1E2DC;
   font-family: 'Oswald', sans-serif;
-  color: #5CBAB0;
+  color: #99BF1C;
   text-align: center;
   font-size: 1.5em;
 }
 
 button {
-  background: white;
-  border: 2px solid #99BF1C;
+  background: #99BF1C;
+  border: 2px solid #5CBAB0;
   font-family: 'Pacifico', cursive;
   font-size: 1.5em;
-  color: #99BF1C;
+  color: #fff;
   padding: 0 20px 10px 20px;
   margin-top: 50px;
 }
