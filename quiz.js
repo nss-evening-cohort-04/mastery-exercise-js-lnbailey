@@ -2,9 +2,9 @@
 // The object has two key/value pairs from user input in a <input type="text"> field in the DOM.
 // Tree should be shown in the console.
 
-function tree() {
-  var height = document.getElementById("height").value;
-  var char = document.getElementById("char").value;
+function myTree(tree) {
+  var height = tree.rows;
+  var char = tree.leaves;
 
   for (var i = 0; i < height; i++) {
     var str = ''; var space = (height - i);
@@ -19,18 +19,23 @@ function tree() {
   }
 }
 
+
+
 // User can either press the enter key or click a button that is labeled "Grow your tree".
 // Display an alert stating that both fields must have a value.
 
 function inputAlert() {
-  var rows = document.getElementById("height").value;
-  var leaves = document.getElementById("char").value;
 
-  if (rows === "" || leaves === "") {
+  var tree = {
+    rows: document.getElementById("height").value,
+    leaves: document.getElementById("char").value
+    }
+
+  if (tree.rows === "" || tree.leaves === "") {
     alert ("I can't grow your tree unless you tell me how tall AND what you want for leaves! Try again.");
     }
     else {
-    tree (rows, leaves)
+    myTree (tree)
     }
 };
 
